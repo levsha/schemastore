@@ -4253,6 +4253,12 @@
       "versions": {
         "1.0": "https://json.schemastore.org/qfconfig.json"
       }
+    },
+    {
+      "name": "k8s",
+      "description": "Try k8s for everything else.",
+      "fileMatch": ["*.yaml"],
+      "url": "https://raw.githubusercontent.com/yannh/kubernetes-json-schema/master/v1.25.4/all.json"
     }
   ],
   "version": 1
